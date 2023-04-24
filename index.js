@@ -164,6 +164,8 @@ function backspaceOperator() {
     }
 }
 
+
+
 numbers.forEach(number => {
     number.addEventListener('click', displayNumbers);
 });

@@ -82,7 +82,8 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 3px;
-    height: 80%;
+    min-height: 80%;
+    max-height: min-content;
 }
 
 .calculator-container .calculator-bottom button {
