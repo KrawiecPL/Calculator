@@ -41,7 +41,7 @@ body {
 
 .calculator-container {
     max-width: 370px;
-    height: 50vh;
+    height: 500px;
     background: var(--background-color);
     padding: 3px;
     border-radius: 8px;
@@ -82,8 +82,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 3px;
-    min-height: 80%;
-    max-height: min-content;
+    height: 80%;
 }
 
 .calculator-container .calculator-bottom button {
